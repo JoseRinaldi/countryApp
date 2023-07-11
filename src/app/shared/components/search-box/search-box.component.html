@@ -1,7 +1,7 @@
 <input
 type="text"
-placeholder="Buscar por capital"
 class="form-control"
+[placeholder]="placeholder"
 (keyup.enter)="emmitValue( txtInputSearch.value)"
 #txtInputSearch
 >
