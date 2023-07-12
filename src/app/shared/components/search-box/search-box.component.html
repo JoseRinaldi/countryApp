@@ -3,5 +3,6 @@ type="text"
 class="form-control"
 [placeholder]="placeholder"
 (keyup.enter)="emmitValue( txtInputSearch.value)"
+(keyup)="onKeyPress( txtInputSearch.value)"
 #txtInputSearch
 >
